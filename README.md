@@ -9,7 +9,7 @@ Create with React+TSDX & Storybook for more faster development and documentation
 Clone the repository
 
 ```sh
-% git clone git@github.com:Jefries/blue-dls.git
+% git clone git@github.com:Jefries/blue-dls-uikit.git
 ```
 
 Install the dependencies
