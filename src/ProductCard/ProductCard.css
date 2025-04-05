@@ -116,6 +116,7 @@ img {
   display: flex;
   align-items: center;
   margin: 8px 0;
+  height: 18px;
 }
 .product-rating > svg {
   margin-right: 4px;

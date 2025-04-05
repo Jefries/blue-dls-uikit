@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -52,6 +52,7 @@
     "@babel/core": "^7.20.12",
     "@chromatic-com/storybook": "^3.2.6",
     "@size-limit/preset-small-lib": "^8.1.2",
+    "@storybook/addon-docs": "^8.6.12",
     "@storybook/addon-essentials": "^8.6.12",
     "@storybook/addon-info": "^5.3.21",
     "@storybook/addon-links": "^8.6.12",

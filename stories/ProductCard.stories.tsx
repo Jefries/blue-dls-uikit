@@ -5,6 +5,7 @@ import { ProductCard, Props } from '../src/ProductCard/ProductCard';
 export default {
   title: 'uikit/Blue DLS by Jefri/ProductCard',
   component: ProductCard,
+  tags:['autodocs'],
   argTypes: {
     img: { control: 'text' },
     size: { control: 'radio', options: ['default', 'small'] },

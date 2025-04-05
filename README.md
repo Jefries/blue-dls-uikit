@@ -2,24 +2,41 @@
 This prototype used to build accessible, consistent, customizable and high quality customer experiences. 
 Create with React+TSDX & Storybook for more faster development and documentation process.
 
+![Product Card - Component](https://ibb.co.com/ksP6bhSp)
+
 <hr />
 
 ## Getting Started
 
-Clone the repository
+### Install the Package
 
-```sh
-% git clone git@github.com:Jefries/blue-dls-uikit.git
+```bash
+npm i blue-dls-uikit
 ```
 
-Install the dependencies
+### Example Usage
 
-```sh
-% yarn install
+```tsx
+import React from 'react';
+import { ProductCard } from 'blue-dls-uikit';
+
+const App = () => (
+  <ProductCard
+    img="https://via.placeholder.com/150"
+    size="default"
+    title="Sample Product"
+    price={100000}
+    discountValue={20000}
+    buttonText="Add to bag"
+    disabledButtonText="Out of stock"
+    rateValue={4.5}
+    sold={1200}
+    onButtonClick={() => alert('Button clicked!')}
+  />
+);
+
+export default App;
 ```
 
-Start Storybook and start editing
-
-```sh
-% yarn storybook
-```
+### Another Components
+Still on progress and will be update soon.
