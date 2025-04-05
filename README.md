@@ -2,7 +2,7 @@
 This prototype used to build accessible, consistent, customizable and high quality customer experiences. 
 Create with React+TSDX & Storybook for more faster development and documentation process.
 
-![Product Card - Component](https://ibb.co.com/ksP6bhSp)
+![Product Card - Component](https://i.ibb.co.com/B5YKWgCm/Product-Card-Package.png)
 
 <hr />
 
