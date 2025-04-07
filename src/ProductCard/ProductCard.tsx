@@ -5,6 +5,7 @@ import StarIcon from '../../src/assets/StarIcon/StarIcon';
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   img?: string;
   size?: 'default' | 'small';
+  className?: string;
   title?: string;
   disabled?: boolean;
   price?: number;
@@ -19,6 +20,7 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
 export const ProductCard = ({
     disabled = false,
     size = 'default',
+    className = '',
     title,
     price = 0,
     discountValue = 0,
@@ -43,7 +45,7 @@ export const ProductCard = ({
   };
 
   return (
-    <div className={['product-card', `product-card--${size}`, mode].join(' ')} {...props}>
+    <div className={['product-card', `product-card--${size}`, mode, className].join(' ').trim()} {...props}>
       <img src={props.img} alt="image product" />
       <div className='product-description'>
         <h2 className='product-title'>{title}</h2>

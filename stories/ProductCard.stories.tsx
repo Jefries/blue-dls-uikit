@@ -9,6 +9,7 @@ export default {
   argTypes: {
     img: { control: 'text' },
     size: { control: 'radio', options: ['default', 'small'] },
+    className: { control: 'text' },
     title: { control: 'text' },
     disabled: { control: 'boolean' },
     price: { control: 'number' },
@@ -34,6 +35,7 @@ export const Default = Template.bind({});
 Default.args = {
   img: 'https://picsum.photos/200/200',
   size: 'default',
+  className: 'your-custom-classname',
   title: 'Sample Product Name',
   disabled: false,
   price: 3550000,

@@ -24,9 +24,10 @@ const App = () => (
   <ProductCard
     img="https://via.placeholder.com/150"
     size="default"
+    className="your-custom-classname"
     title="Sample Product"
     price={100000}
-    discountValue={20000}
+    discountValue={20000}s
     buttonText="Add to bag"
     disabledButtonText="Out of stock"
     rateValue={4.5}
