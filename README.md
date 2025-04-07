@@ -27,7 +27,7 @@ const App = () => (
     className="your-custom-classname"
     title="Sample Product"
     price={100000}
-    discountValue={20000}s
+    discountValue={20000}
     buttonText="Add to bag"
     disabledButtonText="Out of stock"
     rateValue={4.5}
